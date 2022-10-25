@@ -1,0 +1,33 @@
+.my-header {
+    width: 550px;
+    height: 450px;
+    background-color: blue;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.pai {
+    width: 600px;
+    height: 300px;
+    background-color: pink;
+    position: relative;
+}
+
+.filho {
+    display: flex;
+    width: 560px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    bottom: -76px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
